@@ -1,0 +1,86 @@
+
+.content {
+    position: absolute;
+
+}
+
+#login-link{
+    float:right;
+}
+#searchforVideo{
+    padding-top:20px;
+}
+img {
+    
+    float:left;
+    padding-right:10px;
+    
+}
+
+li{
+    height:90px;
+    width:80%;
+    font-size:12px;
+    display:inline-block;
+    padding:20px;
+    border-style:inset;
+    
+}
+
+.input#keyword input-button{
+    margin:500px;
+}
+
+input-button input[type=text]{
+    width:15px;
+    padding-left:10px;
+    color:transparent;
+    cursor:pointer;
+}
+
+input-button input[type=text]:hover{
+    background-color:#fff;
+}
+
+input-button input[type=text]:focus{
+    width:130px;
+    padding-left:32px;
+    color:#000;
+    background-color:#fff;
+    cursor:auto;
+}
+
+input-button input:-moz-placeholder {
+    color:transparent;
+}
+
+input-button input::-webkit-input-placeholder {
+    color:transparent;
+}
+
+#buttonBox{
+    margin-left:275px;
+}
+
+.input-button{
+    width:20px;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    border-radius:10px;
+}
+
+.input-button:hover {
+    width: 300px;
+    border-radius:0px;
+    margin:auto;
+}
+
+#search-button{
+    background-color:black;
+    color:white;
+    border-radius:10px;
+}
+
+#searchforVideo{
+    margin-left:30%;
+}
